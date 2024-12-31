@@ -24,22 +24,18 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             width: 80%;
             max-width: 800px;
-            margin-bottom: 20px;
+            margin-bottom: 20px; /* 박스 사이 간격 */
         }
         h1 {
             color: #007bff;
             text-align: center;
-            position: relative; /* 제목을 이미지 위에 겹치도록 */
-            z-index: 1; /* 이미지 위에 제목을 표시 */
-            margin-top: -100px; /* 이미지 높이만큼 위로 이동 */
-            margin-bottom: 0; /* 이미지와의 간격 제거 */
         }
         p {
             line-height: 1.6;
         }
         figure {
             margin: 0;
-            position: relative; /* 이미지의 위치 설정 */
+            margin-bottom: 20px;
         }
         img {
             width: 100%;
@@ -52,19 +48,20 @@
             margin-top: 10px;
             color: #333;
         }
+        /* 새로운 박스 스타일 */
         .info-box {
-            background-color: #f0f0f0;
+            background-color: white; 
         }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <h1>부산을 소개합니다</h1>
     <figure>
         <img src="1717557837110-c4304de0-e1eb-4921-9ae5-a655401e946a_3.jpg" alt="부산의 해안">
         <figcaption>이미지를 확대하세요</figcaption>
     </figure>
-    <h1>부산을 소개합니다</h1>
     <p>부산은 대한민국의 남동부에 위치한 대도시로, 아름다운 해안선과 풍부한 문화유산을 가지고 있습니다. 부산은 해운대, 광안리 같은 유명한 해변과 함께 부산국제영화제(BIFF)로도 널리 알려져 있습니다.</p>
     <ul>
         <li><strong>인구:</strong> 약 340만 명</li>
@@ -75,10 +72,10 @@
 </div>
 
 <div class="info-box">
-    <h2>여행 코스</h2>
-    <p>링크를 누르면 여행 코스의 자세한 정보가 나옵니다.</p>
+    <h2>더 알아보기</h2>
+    <p>부산에 관한 더 많은 정보를 찾고 계신가요? 다음 링크를 확인해 보세요:</p>
     <ul>
-        <li><a href="임시수도기념관.html" target="_blank">임시수도기념관</a></li>
+        <li><a href="dlatltnerhrlsuarhks" target="_blank">부산시 홈페이지</a></li>
         <li><a href="https://www.biff.kr/" target="_blank">부산국제영화제</a></li>
     </ul>
 </div>
