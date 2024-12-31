@@ -17,13 +17,14 @@
             justify-content: center;
             height: 100vh;
         }
-        .container {
+        .container, .info-box {
             background: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             width: 80%;
             max-width: 800px;
+            margin-bottom: 20px; /* 박스 사이 간격 */
         }
         h1 {
             color: #007bff;
@@ -42,10 +43,14 @@
             height: auto;
         }
         figcaption {
-            font-style: italic; /* 이탤릭체로 설정 */
+            font-style: italic;
             text-align: center;
             margin-top: 10px;
-            color: #333; /* 글씨색을 명확하게 설정 */
+            color: #333;
+        }
+        /* 새로운 박스 스타일 */
+        .info-box {
+            background-color: #f0f0f0; /* 약간 다른 색상으로 구분하기 */
         }
     </style>
 </head>
@@ -63,6 +68,15 @@
         <li><strong>주요 산업:</strong> 항만, 조선, 자동차, 전자, 패션</li>
         <li><strong>명소:</strong> 해운대, 광안리, 용두산 공원, 감천 문화마을</li>
         <li><strong>음식:</strong> 밀면, 돼지국밥, 회</li>
+    </ul>
+</div>
+
+<div class="info-box">
+    <h2>더 알아보기</h2>
+    <p>부산에 관한 더 많은 정보를 찾고 계신가요? 다음 링크를 확인해 보세요:</p>
+    <ul>
+        <li><a href="https://www.busan.go.kr/" target="_blank">부산시 홈페이지</a></li>
+        <li><a href="https://www.biff.kr/" target="_blank">부산국제영화제</a></li>
     </ul>
 </div>
 
